@@ -21,22 +21,22 @@ import {
 import { useHistory } from "react-router-dom";
 import { numberWithCommmas } from "../Components/Banner/Carousel";
 
+const useStyles = makeStyles(() => ({
+  row: {
+    backgroundColor: "#16171a",
+    cursor: "pointer",
+    "&:hover": {
+      backgroundColor: "#131111",
+    },
+    fontFamily: "Montserrat",
+  },
+}));
+
 const CoinTable = () => {
   const [coins, setCoins] = useState([]);
   const [loading, setLoading] = useState(false);
   const [search, setSearch] = useState();
   const { currency, symbol } = CryptoState();
-
-  const useStyles = makeStyles(() => ({
-    row: {
-      backgroundColor: "#16171a",
-      cursor: "pointer",
-      "&:hover": {
-        backgroundColor: "#131111",
-      },
-      fontFamily: "Montserrat",
-    },
-  }));
 
   const classes = useStyles();
   const history = useHistory();
