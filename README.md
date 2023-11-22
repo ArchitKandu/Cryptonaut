@@ -21,7 +21,16 @@ Cryptonaut is a web application built with React that allows users to explore de
 
 ## Demo
 
-[Insert Link to Live Demo]
+Live Site - [https://crptonaut.onrender.com/](https://crptonaut.onrender.com/)
+
+- HOMEPAGE:
+   <img src="screenshots/homepage.png" alt="Homepage"/>
+
+- ALL COINS:
+   <img src="screenshots/homepage-table.png" alt="All Coins"/>
+
+- INDIVIDUAL COINS:
+   <img src="screenshots/individual-coins.png" alt="Individual Coin"/>
 
 ## Getting Started
 
